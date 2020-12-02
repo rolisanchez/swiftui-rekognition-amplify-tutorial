@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C92C03B7727218E7C9A5D4C /* Pods_SwiftUIAmplifyRekognitionTutorial_SwiftUIAmplifyRekognitionTutorialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD28742ABF0DCA3022885F9 /* Pods_SwiftUIAmplifyRekognitionTutorial_SwiftUIAmplifyRekognitionTutorialUITests.framework */; };
+		1A92748C3DABBA8018E1E362 /* Pods_SwiftUIAmplifyRekognitionTutorialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50823B34CC1C5F0B8CB45CA4 /* Pods_SwiftUIAmplifyRekognitionTutorialTests.framework */; };
+		49125928A8D96A528C9A6551 /* Pods_SwiftUIAmplifyRekognitionTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602A48DBCA82ABFB563007AD /* Pods_SwiftUIAmplifyRekognitionTutorial.framework */; };
+		DBC5F8002576ED910081245B /* SwiftUIAmplifyRekognitionTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC5F7FF2576ED910081245B /* SwiftUIAmplifyRekognitionTutorialApp.swift */; };
+		DBC5F8022576ED910081245B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC5F8012576ED910081245B /* ContentView.swift */; };
+		DBC5F8042576ED920081245B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC5F8032576ED920081245B /* Assets.xcassets */; };
+		DBC5F8072576ED920081245B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC5F8062576ED920081245B /* Preview Assets.xcassets */; };
+		DBC5F8122576ED920081245B /* SwiftUIAmplifyRekognitionTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC5F8112576ED920081245B /* SwiftUIAmplifyRekognitionTutorialTests.swift */; };
+		DBC5F81D2576ED920081245B /* SwiftUIAmplifyRekognitionTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC5F81C2576ED920081245B /* SwiftUIAmplifyRekognitionTutorialUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBC5F80E2576ED920081245B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC5F7F42576ED910081245B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC5F7FB2576ED910081245B;
+			remoteInfo = SwiftUIAmplifyRekognitionTutorial;
+		};
+		DBC5F8192576ED920081245B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC5F7F42576ED910081245B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC5F7FB2576ED910081245B;
+			remoteInfo = SwiftUIAmplifyRekognitionTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D60513122A97B95C018E30 /* Pods-SwiftUIAmplifyRekognitionTutorial-SwiftUIAmplifyRekognitionTutorialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIAmplifyRekognitionTutorial-SwiftUIAmplifyRekognitionTutorialUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIAmplifyRekognitionTutorial-SwiftUIAmplifyRekognitionTutorialUITests/Pods-SwiftUIAmplifyRekognitionTutorial-SwiftUIAmplifyRekognitionTutorialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0F1DFA4AB397165E78A12A54 /* Pods-SwiftUIAmplifyRekognitionTutorialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIAmplifyRekognitionTutorialTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIAmplifyRekognitionTutorialTests/Pods-SwiftUIAmplifyRekognitionTutorialTests.release.xcconfig"; sourceTree = "<group>"; };
+		21DE9E643B3E34B06CFCB9CB /* Pods-SwiftUIAmplifyRekognitionTutorialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIAmplifyRekognitionTutorialTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIAmplifyRekognitionTutorialTests/Pods-SwiftUIAmplifyRekognitionTutorialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		50823B34CC1C5F0B8CB45CA4 /* Pods_SwiftUIAmplifyRekognitionTutorialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIAmplifyRekognitionTutorialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		602A48DBCA82ABFB563007AD /* Pods_SwiftUIAmplifyRekognitionTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIAmplifyRekognitionTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E3D556B6635228FB598217 /* Pods-SwiftUIAmplifyRekognitionTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIAmplifyRekognitionTutorial.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIAmplifyRekognitionTutorial/Pods-SwiftUIAmplifyRekognitionTutorial.debug.xcconfig"; sourceTree = "<group>"; };
+		ADD28742ABF0DCA3022885F9 /* Pods_SwiftUIAmplifyRekognitionTutorial_SwiftUIAmplifyRekognitionTutorialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIAmplifyRekognitionTutorial_SwiftUIAmplifyRekognitionTutorialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2CAC94B85CAAA21D2E82F89 /* Pods-SwiftUIAmplifyRekognitionTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIAmplifyRekognitionTutorial.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIAmplifyRekognitionTutorial/Pods-SwiftUIAmplifyRekognitionTutorial.release.xcconfig"; sourceTree = "<group>"; };
+		DBC5F7FC2576ED910081245B /* SwiftUIAmplifyRekognitionTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAmplifyRekognitionTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC5F7FF2576ED910081245B /* SwiftUIAmplifyRekognitionTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAmplifyRekognitionTutorialApp.swift; sourceTree = "<group>"; };
+		DBC5F8012576ED910081245B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBC5F8032576ED920081245B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBC5F8062576ED920081245B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBC5F8082576ED920081245B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC5F80D2576ED920081245B /* SwiftUIAmplifyRekognitionTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIAmplifyRekognitionTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC5F8112576ED920081245B /* SwiftUIAmplifyRekognitionTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAmplifyRekognitionTutorialTests.swift; sourceTree = "<group>"; };
+		DBC5F8132576ED920081245B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC5F8182576ED920081245B /* SwiftUIAmplifyRekognitionTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIAmplifyRekognitionTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC5F81C2576ED920081245B /* SwiftUIAmplifyRekognitionTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAmplifyRekognitionTutorialUITests.swift; sourceTree = "<group>"; };
+		DBC5F81E2576ED920081245B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEDF708BCFA43ACF1EF4C83E /* Pods-SwiftUIAmplifyRekognitionTutorial-SwiftUIAmplifyRekognitionTutorialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIAmplifyRekognitionTutorial-SwiftUIAmplifyRekognitionTutorialUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIAmplifyRekognitionTutorial-SwiftUIAmplifyRekognitionTutorialUITests/Pods-SwiftUIAmplifyRekognitionTutorial-SwiftUIAmplifyRekognitionTutorialUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBC5F7F92576ED910081245B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49125928A8D96A528C9A6551 /* Pods_SwiftUIAmplifyRekognitionTutorial.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC5F80A2576ED920081245B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A92748C3DABBA8018E1E362 /* Pods_SwiftUIAmplifyRekognitionTutorialTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC5F8152576ED920081245B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C92C03B7727218E7C9A5D4C /* Pods_SwiftUIAmplifyRekognitionTutorial_SwiftUIAmplifyRekognitionTutorialUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		326156B2AB8C6FA207E8B504 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				602A48DBCA82ABFB563007AD /* Pods_SwiftUIAmplifyRekognitionTutorial.framework */,
+				ADD28742ABF0DCA3022885F9 /* Pods_SwiftUIAmplifyRekognitionTutorial_SwiftUIAmplifyRekognitionTutorialUITests.framework */,
+				50823B34CC1C5F0B8CB45CA4 /* Pods_SwiftUIAmplifyRekognitionTutorialTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A3BA9C4B2A1C5A2377A8598 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90E3D556B6635228FB598217 /* Pods-SwiftUIAmplifyRekognitionTutorial.debug.xcconfig */,
+				B2CAC94B85CAAA21D2E82F89 /* Pods-SwiftUIAmplifyRekognitionTutorial.release.xcconfig */,
+				04D60513122A97B95C018E30 /* Pods-SwiftUIAmplifyRekognitionTutorial-SwiftUIAmplifyRekognitionTutorialUITests.debug.xcconfig */,
+				FEDF708BCFA43ACF1EF4C83E /* Pods-SwiftUIAmplifyRekognitionTutorial-SwiftUIAmplifyRekognitionTutorialUITests.release.xcconfig */,
+				21DE9E643B3E34B06CFCB9CB /* Pods-SwiftUIAmplifyRekognitionTutorialTests.debug.xcconfig */,
+				0F1DFA4AB397165E78A12A54 /* Pods-SwiftUIAmplifyRekognitionTutorialTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DBC5F7F32576ED910081245B = {
+			isa = PBXGroup;
+			children = (
+				DBC5F7FE2576ED910081245B /* SwiftUIAmplifyRekognitionTutorial */,
+				DBC5F8102576ED920081245B /* SwiftUIAmplifyRekognitionTutorialTests */,
+				DBC5F81B2576ED920081245B /* SwiftUIAmplifyRekognitionTutorialUITests */,
+				DBC5F7FD2576ED910081245B /* Products */,
+				6A3BA9C4B2A1C5A2377A8598 /* Pods */,
+				326156B2AB8C6FA207E8B504 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DBC5F7FD2576ED910081245B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBC5F7FC2576ED910081245B /* SwiftUIAmplifyRekognitionTutorial.app */,
+				DBC5F80D2576ED920081245B /* SwiftUIAmplifyRekognitionTutorialTests.xctest */,
+				DBC5F8182576ED920081245B /* SwiftUIAmplifyRekognitionTutorialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBC5F7FE2576ED910081245B /* SwiftUIAmplifyRekognitionTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				DBC5F7FF2576ED910081245B /* SwiftUIAmplifyRekognitionTutorialApp.swift */,
+				DBC5F8012576ED910081245B /* ContentView.swift */,
+				DBC5F8032576ED920081245B /* Assets.xcassets */,
+				DBC5F8082576ED920081245B /* Info.plist */,
+				DBC5F8052576ED920081245B /* Preview Content */,
+			);
+			path = SwiftUIAmplifyRekognitionTutorial;
+			sourceTree = "<group>";
+		};
+		DBC5F8052576ED920081245B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DBC5F8062576ED920081245B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DBC5F8102576ED920081245B /* SwiftUIAmplifyRekognitionTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC5F8112576ED920081245B /* SwiftUIAmplifyRekognitionTutorialTests.swift */,
+				DBC5F8132576ED920081245B /* Info.plist */,
+			);
+			path = SwiftUIAmplifyRekognitionTutorialTests;
+			sourceTree = "<group>";
+		};
+		DBC5F81B2576ED920081245B /* SwiftUIAmplifyRekognitionTutorialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC5F81C2576ED920081245B /* SwiftUIAmplifyRekognitionTutorialUITests.swift */,
+				DBC5F81E2576ED920081245B /* Info.plist */,
+			);
+			path = SwiftUIAmplifyRekognitionTutorialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBC5F7FB2576ED910081245B /* SwiftUIAmplifyRekognitionTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC5F8212576ED920081245B /* Build configuration list for PBXNativeTarget "SwiftUIAmplifyRekognitionTutorial" */;
+			buildPhases = (
+				76F17E62DAF8312AAE1C41C9 /* [CP] Check Pods Manifest.lock */,
+				DBC5F7F82576ED910081245B /* Sources */,
+				DBC5F7F92576ED910081245B /* Frameworks */,
+				DBC5F7FA2576ED910081245B /* Resources */,
+				8A8CDF5E90B7BC3657042F90 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUIAmplifyRekognitionTutorial;
+			productName = SwiftUIAmplifyRekognitionTutorial;
+			productReference = DBC5F7FC2576ED910081245B /* SwiftUIAmplifyRekognitionTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBC5F80C2576ED920081245B /* SwiftUIAmplifyRekognitionTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC5F8242576ED920081245B /* Build configuration list for PBXNativeTarget "SwiftUIAmplifyRekognitionTutorialTests" */;
+			buildPhases = (
+				0DAF4FA4135A8886C1F216FC /* [CP] Check Pods Manifest.lock */,
+				DBC5F8092576ED920081245B /* Sources */,
+				DBC5F80A2576ED920081245B /* Frameworks */,
+				DBC5F80B2576ED920081245B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC5F80F2576ED920081245B /* PBXTargetDependency */,
+			);
+			name = SwiftUIAmplifyRekognitionTutorialTests;
+			productName = SwiftUIAmplifyRekognitionTutorialTests;
+			productReference = DBC5F80D2576ED920081245B /* SwiftUIAmplifyRekognitionTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBC5F8172576ED920081245B /* SwiftUIAmplifyRekognitionTutorialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC5F8272576ED920081245B /* Build configuration list for PBXNativeTarget "SwiftUIAmplifyRekognitionTutorialUITests" */;
+			buildPhases = (
+				E05B599A7BC0F487018637E8 /* [CP] Check Pods Manifest.lock */,
+				DBC5F8142576ED920081245B /* Sources */,
+				DBC5F8152576ED920081245B /* Frameworks */,
+				DBC5F8162576ED920081245B /* Resources */,
+				20152B9A5F9CDCA6B2FB43D2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC5F81A2576ED920081245B /* PBXTargetDependency */,
+			);
+			name = SwiftUIAmplifyRekognitionTutorialUITests;
+			productName = SwiftUIAmplifyRekognitionTutorialUITests;
+			productReference = DBC5F8182576ED920081245B /* SwiftUIAmplifyRekognitionTutorialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBC5F7F42576ED910081245B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					DBC5F7FB2576ED910081245B = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					DBC5F80C2576ED920081245B = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = DBC5F7FB2576ED910081245B;
+					};
+					DBC5F8172576ED920081245B = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = DBC5F7FB2576ED910081245B;
+					};
+				};
+			};
+			buildConfigurationList = DBC5F7F72576ED910081245B /* Build configuration list for PBXProject "SwiftUIAmplifyRekognitionTutorial" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBC5F7F32576ED910081245B;
+			productRefGroup = DBC5F7FD2576ED910081245B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBC5F7FB2576ED910081245B /* SwiftUIAmplifyRekognitionTutorial */,
+				DBC5F80C2576ED920081245B /* SwiftUIAmplifyRekognitionTutorialTests */,
+				DBC5F8172576ED920081245B /* SwiftUIAmplifyRekognitionTutorialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBC5F7FA2576ED910081245B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC5F8072576ED920081245B /* Preview Assets.xcassets in Resources */,
+				DBC5F8042576ED920081245B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC5F80B2576ED920081245B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC5F8162576ED920081245B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DAF4FA4135A8886C1F216FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUIAmplifyRekognitionTutorialTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20152B9A5F9CDCA6B2FB43D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIAmplifyRekognitionTutorial-SwiftUIAmplifyRekognitionTutorialUITests/Pods-SwiftUIAmplifyRekognitionTutorial-SwiftUIAmplifyRekognitionTutorialUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIAmplifyRekognitionTutorial-SwiftUIAmplifyRekognitionTutorialUITests/Pods-SwiftUIAmplifyRekognitionTutorial-SwiftUIAmplifyRekognitionTutorialUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUIAmplifyRekognitionTutorial-SwiftUIAmplifyRekognitionTutorialUITests/Pods-SwiftUIAmplifyRekognitionTutorial-SwiftUIAmplifyRekognitionTutorialUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76F17E62DAF8312AAE1C41C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUIAmplifyRekognitionTutorial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A8CDF5E90B7BC3657042F90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIAmplifyRekognitionTutorial/Pods-SwiftUIAmplifyRekognitionTutorial-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIAmplifyRekognitionTutorial/Pods-SwiftUIAmplifyRekognitionTutorial-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUIAmplifyRekognitionTutorial/Pods-SwiftUIAmplifyRekognitionTutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E05B599A7BC0F487018637E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUIAmplifyRekognitionTutorial-SwiftUIAmplifyRekognitionTutorialUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBC5F7F82576ED910081245B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC5F8022576ED910081245B /* ContentView.swift in Sources */,
+				DBC5F8002576ED910081245B /* SwiftUIAmplifyRekognitionTutorialApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC5F8092576ED920081245B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC5F8122576ED920081245B /* SwiftUIAmplifyRekognitionTutorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC5F8142576ED920081245B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC5F81D2576ED920081245B /* SwiftUIAmplifyRekognitionTutorialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBC5F80F2576ED920081245B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC5F7FB2576ED910081245B /* SwiftUIAmplifyRekognitionTutorial */;
+			targetProxy = DBC5F80E2576ED920081245B /* PBXContainerItemProxy */;
+		};
+		DBC5F81A2576ED920081245B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC5F7FB2576ED910081245B /* SwiftUIAmplifyRekognitionTutorial */;
+			targetProxy = DBC5F8192576ED920081245B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DBC5F81F2576ED920081245B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBC5F8202576ED920081245B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBC5F8222576ED920081245B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E3D556B6635228FB598217 /* Pods-SwiftUIAmplifyRekognitionTutorial.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAmplifyRekognitionTutorial/Preview Content\"";
+				DEVELOPMENT_TEAM = 3GGDA583PP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUIAmplifyRekognitionTutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vrsj.SwiftUIAmplifyRekognitionTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBC5F8232576ED920081245B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2CAC94B85CAAA21D2E82F89 /* Pods-SwiftUIAmplifyRekognitionTutorial.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAmplifyRekognitionTutorial/Preview Content\"";
+				DEVELOPMENT_TEAM = 3GGDA583PP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUIAmplifyRekognitionTutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vrsj.SwiftUIAmplifyRekognitionTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBC5F8252576ED920081245B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21DE9E643B3E34B06CFCB9CB /* Pods-SwiftUIAmplifyRekognitionTutorialTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3GGDA583PP;
+				INFOPLIST_FILE = SwiftUIAmplifyRekognitionTutorialTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vrsj.SwiftUIAmplifyRekognitionTutorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIAmplifyRekognitionTutorial.app/SwiftUIAmplifyRekognitionTutorial";
+			};
+			name = Debug;
+		};
+		DBC5F8262576ED920081245B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F1DFA4AB397165E78A12A54 /* Pods-SwiftUIAmplifyRekognitionTutorialTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3GGDA583PP;
+				INFOPLIST_FILE = SwiftUIAmplifyRekognitionTutorialTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vrsj.SwiftUIAmplifyRekognitionTutorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIAmplifyRekognitionTutorial.app/SwiftUIAmplifyRekognitionTutorial";
+			};
+			name = Release;
+		};
+		DBC5F8282576ED920081245B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04D60513122A97B95C018E30 /* Pods-SwiftUIAmplifyRekognitionTutorial-SwiftUIAmplifyRekognitionTutorialUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3GGDA583PP;
+				INFOPLIST_FILE = SwiftUIAmplifyRekognitionTutorialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vrsj.SwiftUIAmplifyRekognitionTutorialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftUIAmplifyRekognitionTutorial;
+			};
+			name = Debug;
+		};
+		DBC5F8292576ED920081245B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEDF708BCFA43ACF1EF4C83E /* Pods-SwiftUIAmplifyRekognitionTutorial-SwiftUIAmplifyRekognitionTutorialUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3GGDA583PP;
+				INFOPLIST_FILE = SwiftUIAmplifyRekognitionTutorialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vrsj.SwiftUIAmplifyRekognitionTutorialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftUIAmplifyRekognitionTutorial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBC5F7F72576ED910081245B /* Build configuration list for PBXProject "SwiftUIAmplifyRekognitionTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC5F81F2576ED920081245B /* Debug */,
+				DBC5F8202576ED920081245B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC5F8212576ED920081245B /* Build configuration list for PBXNativeTarget "SwiftUIAmplifyRekognitionTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC5F8222576ED920081245B /* Debug */,
+				DBC5F8232576ED920081245B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC5F8242576ED920081245B /* Build configuration list for PBXNativeTarget "SwiftUIAmplifyRekognitionTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC5F8252576ED920081245B /* Debug */,
+				DBC5F8262576ED920081245B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC5F8272576ED920081245B /* Build configuration list for PBXNativeTarget "SwiftUIAmplifyRekognitionTutorialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC5F8282576ED920081245B /* Debug */,
+				DBC5F8292576ED920081245B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBC5F7F42576ED910081245B /* Project object */;
+}

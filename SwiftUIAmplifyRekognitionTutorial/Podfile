@@ -1,0 +1,35 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+# ignore all warnings from all pods
+inhibit_all_warnings!
+
+target 'SwiftUIAmplifyRekognitionTutorial' do
+  # ignore all warnings from all pods
+  inhibit_all_warnings!
+
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Helpers
+  pod 'SwiftLint'
+
+  # Amplify Pods
+  pod 'Amplify'
+  # pod 'AmplifyPlugins/AWSCognitoAuthPlugin'
+  pod 'AWSPredictionsPlugin'
+  pod 'CoreMLPredictionsPlugin'
+
+
+  # Pods for SwiftUIAmplifyRekognitionTutorial
+
+  target 'SwiftUIAmplifyRekognitionTutorialTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SwiftUIAmplifyRekognitionTutorialUITests' do
+    # Pods for testing
+  end
+
+end
