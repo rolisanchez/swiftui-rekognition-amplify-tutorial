@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,8 @@
 		DBC5F8072576ED920081245B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC5F8062576ED920081245B /* Preview Assets.xcassets */; };
 		DBC5F8122576ED920081245B /* SwiftUIAmplifyRekognitionTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC5F8112576ED920081245B /* SwiftUIAmplifyRekognitionTutorialTests.swift */; };
 		DBC5F81D2576ED920081245B /* SwiftUIAmplifyRekognitionTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC5F81C2576ED920081245B /* SwiftUIAmplifyRekognitionTutorialUITests.swift */; };
+		C4DEDAC724184D3C8606973B /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 3658D37B77BE4147BEFF8855 /* amplifyconfiguration.json */; };
+		FA981ADD27D8483293AD39EE /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = E2A324D8317A496A8A6840EE /* awsconfiguration.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		DBC5F81C2576ED920081245B /* SwiftUIAmplifyRekognitionTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAmplifyRekognitionTutorialUITests.swift; sourceTree = "<group>"; };
 		DBC5F81E2576ED920081245B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEDF708BCFA43ACF1EF4C83E /* Pods-SwiftUIAmplifyRekognitionTutorial-SwiftUIAmplifyRekognitionTutorialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIAmplifyRekognitionTutorial-SwiftUIAmplifyRekognitionTutorialUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIAmplifyRekognitionTutorial-SwiftUIAmplifyRekognitionTutorialUITests/Pods-SwiftUIAmplifyRekognitionTutorial-SwiftUIAmplifyRekognitionTutorialUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5FBC57E8B5EF4ED79577023E /* amplifytools.xcconfig */ = {isa = PBXFileReference; name = "amplifytools.xcconfig"; path = "amplifytools.xcconfig"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.xcconfig; explicitFileType = undefined; includeInIndex = 0; };
+		3658D37B77BE4147BEFF8855 /* amplifyconfiguration.json */ = {isa = PBXFileReference; name = "amplifyconfiguration.json"; path = "amplifyconfiguration.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E2A324D8317A496A8A6840EE /* awsconfiguration.json */ = {isa = PBXFileReference; name = "awsconfiguration.json"; path = "awsconfiguration.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		22CD05B5C28B4B49AA274867 /* schema.graphql */ = {isa = PBXFileReference; name = "schema.graphql"; path = "amplify/backend/api/amplifyDatasource/schema.graphql"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,13 +113,13 @@
 				21DE9E643B3E34B06CFCB9CB /* Pods-SwiftUIAmplifyRekognitionTutorialTests.debug.xcconfig */,
 				0F1DFA4AB397165E78A12A54 /* Pods-SwiftUIAmplifyRekognitionTutorialTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		DBC5F7F32576ED910081245B = {
 			isa = PBXGroup;
 			children = (
+				13F80E18C3314D95BE7265CB /* AmplifyConfig */,
 				DBC5F7FE2576ED910081245B /* SwiftUIAmplifyRekognitionTutorial */,
 				DBC5F8102576ED920081245B /* SwiftUIAmplifyRekognitionTutorialTests */,
 				DBC5F81B2576ED920081245B /* SwiftUIAmplifyRekognitionTutorialUITests */,
@@ -171,6 +177,26 @@
 			path = SwiftUIAmplifyRekognitionTutorialUITests;
 			sourceTree = "<group>";
 		};
+		13F80E18C3314D95BE7265CB /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				5FBC57E8B5EF4ED79577023E /* amplifytools.xcconfig */,
+				3658D37B77BE4147BEFF8855 /* amplifyconfiguration.json */,
+				E2A324D8317A496A8A6840EE /* awsconfiguration.json */,
+				22CD05B5C28B4B49AA274867 /* schema.graphql */,
+			);
+			name = AmplifyConfig;
+			path = .;
+			sourceTree = "<group>";
+		};
+		0DBAA52A0638456DB1E06818 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			path = undefined;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -183,6 +209,7 @@
 				DBC5F7F92576ED910081245B /* Frameworks */,
 				DBC5F7FA2576ED910081245B /* Resources */,
 				8A8CDF5E90B7BC3657042F90 /* [CP] Embed Pods Frameworks */,
+				DB457E1F257C1B5A00322CD2 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -281,6 +308,8 @@
 			files = (
 				DBC5F8072576ED920081245B /* Preview Assets.xcassets in Resources */,
 				DBC5F8042576ED920081245B /* Assets.xcassets in Resources */,
+				C4DEDAC724184D3C8606973B /* amplifyconfiguration.json in Resources */,
+				FA981ADD27D8483293AD39EE /* awsconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +407,23 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUIAmplifyRekognitionTutorial/Pods-SwiftUIAmplifyRekognitionTutorial-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		DB457E1F257C1B5A00322CD2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint\n";
 		};
 		E05B599A7BC0F487018637E8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;

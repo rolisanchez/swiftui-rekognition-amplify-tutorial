@@ -16,7 +16,7 @@ target 'SwiftUIAmplifyRekognitionTutorial' do
 
   # Amplify Pods
   pod 'Amplify'
-  # pod 'AmplifyPlugins/AWSCognitoAuthPlugin'
+  pod 'AmplifyPlugins/AWSCognitoAuthPlugin'
   pod 'AWSPredictionsPlugin'
   pod 'CoreMLPredictionsPlugin'
 
