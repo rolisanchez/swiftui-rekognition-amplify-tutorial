@@ -7,7 +7,7 @@
 
 import SwiftUI
 import Amplify
-//import AmplifyPlugins
+import AmplifyPlugins
 import AWSPredictionsPlugin
 
 @main
