@@ -11,19 +11,21 @@ struct ContentView: View {
     // MARK: Properties
     @State private var showingImagePicker = false
     @State private var inputImage: UIImage?
+    @State var chosenImage: Image?
 
     var body: some View {
-        ZStack {
-            Color.secondary
-            VStack {
-                Text("Rekognition Demo")
-                    .foregroundColor(.primary)
-                    .padding()
-                Button(action: { self.showingImagePicker.toggle() },
-                       label: {
-                        Text("Click here to pick image")
-                       })
-            }
+        VStack {
+            Text("Rekognition Demo")
+                .padding()
+            Button(action: { self.showingImagePicker.toggle() },
+                   label: {
+                    Text("Click here to pick image")
+                   }
+            )
+            chosenImage?
+                .resizable()
+                .frame(width: 375, height: 500)
+                .scaledToFit()
         }
         .sheet(isPresented: $showingImagePicker, onDismiss: loadImage) {
             ZStack {
@@ -36,6 +38,8 @@ struct ContentView: View {
     // MARK: Methods
     func loadImage() {
         print("Loading image..")
+        guard let inputImage = inputImage else { return }
+        chosenImage = Image(uiImage: inputImage)
     }
 }
 
