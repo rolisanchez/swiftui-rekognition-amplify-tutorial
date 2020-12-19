@@ -32,8 +32,10 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     }
 
     func initializeAWSAmplify() {
+        let authPlugin = AWSCognitoAuthPlugin()
         let predictionsPlugin = AWSPredictionsPlugin()
         do {
+            try Amplify.add(plugin: authPlugin)
             try Amplify.add(plugin: predictionsPlugin)
             try Amplify.configure()
             print("Amplify initialized")

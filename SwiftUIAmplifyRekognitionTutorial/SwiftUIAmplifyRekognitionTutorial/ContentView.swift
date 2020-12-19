@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
+import Amplify
 
 struct ContentView: View {
     // MARK: Properties
     @State private var showingImagePicker = false
     @State private var inputImage: UIImage?
     @State var chosenImage: Image?
+    @State var labels: [String]?
 
     var body: some View {
         VStack {
@@ -24,8 +26,16 @@ struct ContentView: View {
             )
             chosenImage?
                 .resizable()
-                .frame(width: 375, height: 500)
+                .frame(width: 250, height: 200)
                 .scaledToFit()
+            if labels != nil {
+                Text("Recognized labels list:")
+                List(labels!, id: \.self) { label in
+                    Text(label)
+                }
+                .frame(height: 200)
+            }
+
         }
         .sheet(isPresented: $showingImagePicker, onDismiss: loadImage) {
             ZStack {
@@ -38,8 +48,33 @@ struct ContentView: View {
     // MARK: Methods
     func loadImage() {
         print("Loading image..")
+        labels = nil
         guard let inputImage = inputImage else { return }
         chosenImage = Image(uiImage: inputImage)
+        // Compress image for faster upload to cloud
+        let imageData = inputImage.jpegData(compressionQuality: 0.1)!
+        let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+        let filename =  paths[0].appendingPathComponent("unlabeled.jpeg")
+        try? imageData.write(to: filename)
+        detectLabels(filename)
+    }
+
+    func detectLabels(_ image: URL) {
+        Amplify.Predictions.identify(type: .detectLabels(.labels), image: image) { event in
+            switch event {
+            case let .success(result):
+                if let data = result as? IdentifyLabelsResult {
+                    let sortedLabels = data.labels.sorted { $0.metadata!.confidence > $1.metadata!.confidence }
+                    let labels: [String] = sortedLabels.map {
+                        $0.name + " (confidence: " + String($0.metadata!.confidence) + ")"
+                    }
+                    self.labels = labels
+                }
+
+            case let .failure(error):
+                print(error)
+            }
+        }
     }
 }
 
